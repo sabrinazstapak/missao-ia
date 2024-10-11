@@ -25,3 +25,15 @@
   h1{
     color: var(--cor-destaque);
    }
+   botton {
+      blackground-color: var(--cor-principal);
+      color: var(--cor-destaque);
+      border: none;
+      border-radius: 15px;
+      padding: 15px;
+      transition: background-color 0.3s;
+   }
+    botton:hover {
+      background-color: var (--cor-destaque);
+      color: var(--cor-secundaria);
+    }
